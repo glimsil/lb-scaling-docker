@@ -1,0 +1,1 @@
+docker stats --no-stream --format "{{.Name}}: {{.CPUPerc}}" | grep lb-scaling-docker_app
